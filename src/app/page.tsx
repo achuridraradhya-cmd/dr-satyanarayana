@@ -28,7 +28,6 @@ export default function HomePage() {
       <HiglightArea />
       <Testimonial />
       <CTABanner />
-      <Marquee />
       <Blog />
       <ContactForm />
       <Footer/>
