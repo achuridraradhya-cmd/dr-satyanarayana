@@ -11,7 +11,7 @@ export default function HiglightArea() {
         'Kidney'
     ]
     return (
-        <Section>
+        <!--Section>
             <div className='w-full relative '>
                 <Marquee pauseOnHover className='items-center md:gap-10 gap-5'>
                     {
@@ -74,6 +74,6 @@ export default function HiglightArea() {
                     </div>
                 </div>
             </Wrapper>
-        </Section>
+        </Section-->
     )
 }
