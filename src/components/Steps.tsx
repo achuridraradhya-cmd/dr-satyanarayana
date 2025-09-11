@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Steps() {
     return (
-        <Section>
+        <!--Section>
             <Wrapper>
                 <div className='relative w-full rounded-2xl md:bg-gradient-to-r bg-gradient-to-b from-dark-navy to-[#F3F3F3] p-5 grid lg:grid-cols-[500px_1fr] md:grid-cols-[300px_1fr] grid-cols-1 lg:gap-16 md:gap-5 gap-8'>
                     <div className="w-full h-full">
@@ -31,6 +31,6 @@ export default function Steps() {
                     </div>
                 </div>
             </Wrapper>
-        </Section>
+        </Section-->
     )
 }
