@@ -22,12 +22,12 @@ export default function NavBar() {
         },
         {
             key: 'about',
-            name: 'About',
+            name: 'Dr. Garre Profile',
             path: '/about'
         },
         {
             key: 'services',
-            name: 'Services',
+            name: 'Treatments',
             path: '#'
         },
         {
@@ -36,13 +36,13 @@ export default function NavBar() {
             path: '/#'
         },
         {
-            key: 'contact',
-            name: 'Contact',
+            key: 'blog',
+            name: 'Blogs',
             path: '#'
         },
         {
-            key: 'blog',
-            name: 'Blogs',
+            key: 'contact',
+            name: 'Contact',
             path: '#'
         }
     ]
