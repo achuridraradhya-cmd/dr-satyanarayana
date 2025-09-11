@@ -57,16 +57,16 @@ export default function Academic() {
 
                                 <ul className='relative w-full mt-3 flex flex-col gap-1.5'>
                                     <li className='text-sm text-zinc-500'>
-                                        <strong className='text-dark-navy'>Poster:</strong> A Rare Case of Methemoglobinemia - KAPICON 2014.
+                                         A Rare Case of Methemoglobinemia - KAPICON 2014.
                                     </li>
                                     <li className='text-sm text-zinc-500'>
-                                        <strong className='text-dark-navy'>Poster:</strong> Atypical HUS Recurrence Post-Transplant - Apollo Medicine, 2023.
+                                         Atypical HUS Recurrence Post-Transplant - Apollo Medicine, 2023.
                                     </li>
                                     <li className='text-sm text-zinc-500'>
-                                        <strong className='text-dark-navy'>Case:</strong> PGNIMD in a Young Male Patient - ISN 2017, ISPNCON.
+                                        PGNIMD in a Young Male Patient - ISN 2017, ISPNCON.
                                     </li>
                                     <li className='text-sm text-zinc-500'>
-                                        <strong className='text-dark-navy'>Case:</strong> Amlodipine Poisoning in 32-week Pregnant Woman.
+                                         Amlodipine Poisoning in 32-week Pregnant Woman.
                                     </li>
                                 </ul>
                             </div>
