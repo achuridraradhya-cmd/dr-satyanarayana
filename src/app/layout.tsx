@@ -4,8 +4,8 @@ import SmoothScrollProvider from "@/utils/SmoothScroll";
 import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
-  title: "Dr. Satyanarayan",
-  description: "Dr. Satyanarayan",
+  title: "Dr. Satyanarayan Best Kidney Specialist Hyderabad",
+  description: "Dr. Satyanarayan Best Kidney Specialist Hyderabad",
 };
 
 export default function RootLayout({
