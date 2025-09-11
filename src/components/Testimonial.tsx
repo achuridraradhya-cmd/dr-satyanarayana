@@ -56,9 +56,9 @@ export default function Testimonial() {
                             <span className='font-bold text-base text-dark-navy'>
                                 500+ Patients Trust Us & Counting
                             </span>
-                            <div className="mt-5 flex flex-row items-center justify-center w-max">
+                            <!--div className="mt-5 flex flex-row items-center justify-center w-max">
                                 <AnimatedTooltip items={people} />
-                            </div>
+                            </div-->
                         </div>
                     </div>
                     <div className='w-full h-full overflow-hidden'>
