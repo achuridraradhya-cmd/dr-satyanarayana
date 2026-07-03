@@ -1,0 +1,141 @@
+export interface Blog {
+    title: string;
+    content: string;
+    slug: string;
+    image: string;
+}
+
+export const blog: Blog[] = [
+    {
+        title: 'Can Early Stage Kidney Disease Be Reversed?',
+        content: 'Kidney disease is often called a "silent disease" because it usually develops without noticeable symptoms. Many people only discover they have a kidney problem during a routine health check-up. This often leads to an important question: Can early stage kidney disease be reversed?',
+        slug: '/blogs/can-early-stage-kidney-desease-be-reversed',
+        image: '/images/blog/blog-12.png'
+    },
+    {
+        title: 'Foamy Urine and Kidney Problems',
+        content: 'Foamy urine is something many people notice from time to time. In most cases, it may not be a serious problem. Sometimes, the force of urination, dehydration, or even cleaning products in the toilet can cause bubbles in the urine. However, if foamy urine happens regularly, it may be a sign of an underlying kidney problem that should not be ignored.',
+        slug: '/blogs/foamy-urine-and-kidney-problems',
+        image: '/images/blog/blog-11.png'
+    },
+    {
+        title: 'Swelling in Feet, Face & Ankles – Kidney Disease Signs You Should Never Ignore',
+        content: 'Your kidneys work quietly every day to remove waste, balance fluids, and keep your body healthy. When the kidneys are not working properly, extra fluid can build up in the body, leading to swelling in different areas. Many people ignore this symptom, thinking it is due to tiredness or standing for long hours. However, swelling can be one of the early kidney disease signs and symptoms that should not be overlooked.',
+        slug: '/blogs/swelling-in-feet-face-and-ankles',
+        image: '/images/blog/Swelling-in-Feet-Face-and-Ankles.jpeg'
+    },
+    {
+        title: 'Kidney Function Test (KFT) : Purpose, Types, Procedure & Normal Range',
+        content: 'Your kidneys work like natural filters for the body. They remove waste, balance fluids, control blood pressure, and help maintain overall health. But many kidney problems develop slowly, and in the early stages, people may not notice any symptoms. This is why a Kidney Function Test (KFT) is important.',
+        slug: '/blogs/kidney-function-test',
+        image: '/images/blog/kft.png'
+    },
+    {
+        title: 'What Are Kidney Cysts? Causes, Types, Symptoms & Treatment',
+        content: 'Kidney cysts are a common condition and many people may have them without even knowing. In most cases, these cysts are harmless and do not affect kidney function. However, in some cases, they can cause discomfort or lead to complications. Understanding kidney cysts, what causes kidney cysts, types of kidney cysts, and kidney cysts treatment can help you manage the condition better and seek timely care. ',
+        slug: '/blogs/what-are-kidney-cycts',
+        image: '/images/blog/kidney-cyst.jpeg'
+    },
+    {
+        title: 'Best Nephrologist in Hyderabad',
+        content: 'Kidneys play a very important role in keeping your body healthy. They remove waste, balance fluids, and help control blood pressure. When kidneys do not work properly, it can affect your overall health in many ways. This is where a nephrologist comes in. If you are searching for the best nephrologist in Hyderabad, it is important to choose a doctor who has the right experience and provides proper care',
+        slug: '/blogs/best-nephrologist-in-hyderabad',
+        image: '/images/blog/best-nephrologist.jpeg'
+    },
+    {
+        title: 'Difference Between Urology and Nephrology',
+        content: 'Many people often get confused between urology and nephrology. The names sound similar, and both are related to the urinary system, so it’s normal to wonder what is the difference between urology and nephrology.',
+        slug: '/blogs/urology-vs-nephrology',
+        image: '/images/blog/difference-between-urology-&-nephrology.png'
+    },
+    {
+        title: 'How AV Fistula Improves Quality of Life for Dialysis Patients',
+        content: 'Chronic kidney disease (CKD) is becoming a major health concern worldwide. Many patients progress to end-stage kidney disease (ESKD), where the kidneys stop working properly and dialysis becomes necessary to survive. For dialysis to work effectively, a good vascular access is required. One of the best and most recommended options is an AV fistula (arteriovenous fistula)',
+        slug: '/blogs/how-av-fistula-improves-quality-of-life-for-dialysis-patients',
+        image: '/images/blog/how-av-fistula-improves-quality-of-life-for-dialysis-patients.jpeg'
+    },
+    {
+        title: 'Why Kidney Disease is Called a “Silent Killer”',
+        content: 'Kidney disease is often called a “silent killer” because it usually develops without clear warning signs in the early stages. Many people may not realize they have a kidney problem until the disease has already progressed. By the time symptoms appear, a large portion of kidney function may already be lost.',
+        slug: '/blogs/why-kidney-disease-is-called-a-silent-killer',
+        image: '/images/blog/why-kidney-disease-is-a-silent-killer.png'
+    },
+    {
+        title: 'UTIs in Women: Causes & Prevention',
+        content: 'Urinary tract infections, commonly called UTIs, are one of the most common health problems in women. A urinary tract infection (UTI) occurs when bacteria enter the urinary system and cause infection. The urinary system includes the kidneys, ureters, bladder, and urethra.',
+        slug: '/blogs/utis-in-women-causes-prevention',
+        image: '/images/blog/urinary-tract-infections.png'
+    },
+    {
+        title: 'Hematuria: What It Means',
+        content: 'Hematuria is the presence of blood in the urine. It can appear as red or pink urine, which is called gross or visible hematuria. Sometimes, blood is present but cannot be seen with the naked eye. This is known as microscopic hematuria, which is detected only under a microscope or through a urine test.',
+        slug: '/blogs/what-is-hematuria',
+        image: '/images/blog/blog-10.png'
+    },
+    {
+        title: 'Is Beer Good for Kidney Stones?',
+        content: 'Kidney stones can cause severe pain and discomfort, often making patients search for quick relief. One common question many people ask is, “Is beer good for kidney stones?” This belief has been around for years, with many thinking beer can help flush stones out of the body. But is this really true, or is it just another myth?',
+        slug: '/blogs/is-beer-good-for-kidney-stones',
+        image: '/images/blog/blog-9.png'
+    },
+    {
+        title: 'Creatinine Levels Before and After Dialysis',
+        content: 'Creatinine levels are one of the most common concerns for patients with kidney problems. Many patients often ask what their creatinine level means, when to worry about creatinine levels, and how dialysis affects these numbers. Understanding creatinine levels before and after dialysis can help patients make informed decisions about their kidney health.',
+        slug: '/blogs/creatinine-levels-before-and-after-dialysis',
+        image: '/images/blog/creatinine-levels-before-and-after-dialysis.png'
+    },
+    {
+        title: 'Kidney Problems Diet Chart',
+        content: 'A well-planned kidney problems diet chart plays an important role in managing kidney disease. The right diet can reduce the load on your kidneys, control symptoms, and help slow down further damage.',
+        slug: '/blogs/kidney-problems-diet-chart',
+        image: '/images/blog/kidney-problem-diet-chart-plan.webp'
+    },
+    {
+        title: 'Perm Catheterization for Dialysis: A Nephrologist’s Practical Guide',
+        content: 'When kidney function becomes severely reduced, the kidneys are no longer able to clean the blood and remove waste from the body. In such situations, dialysis is required. For dialysis to be performed safely and regularly, a reliable blood access is needed.',
+        slug: '/blogs/perm-catheterization-for-dialysis',
+        image: '/images/blog/blog-8.jpg'
+    },
+    {
+        title: 'Cost of Kidney Transplantation',
+        content: 'A kidney transplant is one of the most effective treatments for patients with end-stage kidney disease. It offers a better quality of life, more stability, and more long-term health benefits compared to dialysis.',
+        slug: '/blogs/cost-of-kidney-transplantation',
+        image: '/images/blog/blog-7.jpg'
+    },
+    {
+        title: 'Blood Urea Nitrogen (BUN) – Complete Patient Guide',
+        content: 'A complete guide for patients to understand Blood Urea Nitrogen (BUN), normal ranges, causes of high or low BUN, symptoms, FAQ, and when to consult a nephrologist.',
+        slug: '/blogs/bun-complete-guide',
+        image: '/images/blog/blog-6.jpg'
+    },
+    {
+        title: 'Understanding Chronic Kidney Disease (CKD)',
+        content: 'Our kidneys do a lot of important work every day. They remove waste and extra fluid from the blood, balance minerals, control blood pressure, and keep the body healthy. When kidneys stop working properly over time, it is called Chronic Kidney Disease (CKD).....',
+        slug: '/blogs/understanding-chronic-kidney-disease',
+        image: '/images/blog/blog-5.jpg'
+    },
+    {
+        title: 'Can Too Much Salt Cause Kidney Damage?',
+        content: 'Salt is something we all use – in cooking, in packaged foods, and at the table. A small amount of salt (sodium) is necessary for our body to work properly. But when salt intake is too high, it can start to harm our kidneys. In this blog,....',
+        slug: '/blogs/can-too-much-salt-cause-kidney-damage',
+        image: '/images/blog/blog-4.jpg'
+    },
+    {
+        title: 'How Diabetes Causes Kidney Failure',
+        content: 'Diabetes is one of the leading causes of kidney disease around the world. When blood sugar is not well controlled over years, it gradually damages the kidneys until they can no longer do their job. This blog explains in plain language how diabetes causes kidney failure...',
+        slug: '/blogs/how-diabetes-causes-kidney-failure',
+        image: '/images/blog/blog-3.jpg'
+    },
+    {
+        title: 'How to Prevent Kidney Failure',
+        content: 'Our kidneys are like natural filters of the body. They remove waste, balance fluids, keep blood pressure under control, and help produce red blood cells. When the kidneys stop working properly, it can lead to kidney failure, a life-threatening condition...',
+        slug: '/blogs/how-to-prevent-kidney-failure',
+        image: '/images/blog/blog-2.jpg'
+    },
+    {
+        title: 'Symptoms of Kidney Stones',
+        content: 'Kidney stones are hard mineral masses inside your kidneys or urinary tract. They can be very painful, but knowing the symptoms early helps in quick treatment and avoiding complications. Here are the common signs and what to watch out for. Kidney stones e...',
+        slug: '/blogs/symptoms-of-kidney-stones',
+        image: '/images/blog/blog-1.jpg'
+    },
+]
