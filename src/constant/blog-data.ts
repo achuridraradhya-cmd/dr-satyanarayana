@@ -7,6 +7,12 @@ export interface Blog {
 
 export const blog: Blog[] = [
     {
+        title: '7 Warning Signs of Kidney Disease | How to Know If Your Kidneys Are Failing?',
+        content: 'Kidney disease often develops slowly, and many people do not notice any symptoms in the beginning. Your kidneys play an important role in filtering waste, balancing body fluids, controlling blood pressure, and keeping your body healthy. When they stop working properly, waste and extra fluid start building up in the body.',
+        slug: '/blogs/warning-signs-of-kidney-disease',
+        image: '/images/blog/blog-13.png'
+    },
+    {
         title: 'Can Early Stage Kidney Disease Be Reversed?',
         content: 'Kidney disease is often called a "silent disease" because it usually develops without noticeable symptoms. Many people only discover they have a kidney problem during a routine health check-up. This often leads to an important question: Can early stage kidney disease be reversed?',
         slug: '/blogs/can-early-stage-kidney-desease-be-reversed',
