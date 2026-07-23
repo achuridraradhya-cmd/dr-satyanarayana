@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import SmoothScrollProvider from "@/utils/SmoothScroll";
 import { Montserrat, Open_Sans } from "next/font/google";
@@ -9,6 +9,10 @@ import { QueryProvider } from "@/lib/providers";
 export const metadata: Metadata = {
   title: "Nephrologist in Hyderabad | Dr. Satyanarayana Garre - Kidney Specialist",
   description: "Dr. Satyanarayana Garre, top nephrologist in Hyderabad, provides expert kidney care including dialysis, transplants, stone treatment & preventive health services",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+  },
 };
 
 const montserrat = Montserrat({
@@ -20,6 +24,10 @@ const openSans = Open_Sans({
   subsets: ["latin"],
   variable: "--font-open-sans",
 });
+
+export const viewport: Viewport = {
+  themeColor: "#004254"
+}
 
 export default function RootLayout({
   children,
