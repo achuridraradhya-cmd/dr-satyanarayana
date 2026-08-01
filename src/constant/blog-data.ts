@@ -7,6 +7,12 @@ export interface Blog {
 
 export const blog: Blog[] = [
     {
+        title: 'Burning Sensation While Urinating: 7 Causes Beyond Infection',
+        content: 'A burning sensation while urinating is a common problem that many people experience at least once in their lives. Most people immediately think it is a urinary tract infection (UTI). While a UTI is one of the most common reasons, it is not the only cause.',
+        slug: '/blogs/burning-sensation-while-urinating',
+        image: '/images/blog/blog-14.png'
+    },
+    {
         title: '7 Warning Signs of Kidney Disease | How to Know If Your Kidneys Are Failing?',
         content: 'Kidney disease often develops slowly, and many people do not notice any symptoms in the beginning. Your kidneys play an important role in filtering waste, balancing body fluids, controlling blood pressure, and keeping your body healthy. When they stop working properly, waste and extra fluid start building up in the body.',
         slug: '/blogs/warning-signs-of-kidney-disease',
