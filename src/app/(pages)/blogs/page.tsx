@@ -5,6 +5,7 @@ import Link from 'next/link';
 import React from 'react'
 import type { Metadata } from 'next'
 import { blog } from '@/constant/blog-data';
+import { getBlogPosts } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: "Kidney Health Blog – Nephrology & Prevention Tips",
@@ -15,7 +16,12 @@ export const metadata: Metadata = {
 }
 
 
-export default function Blogs() {
+export default async function Blogs({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
+
+  const { page } = await searchParams;
+  const currentPage = Number(page) || 1;
+
+  const { data: posts, pagination } = await getBlogPosts(currentPage);
 
   return (
     <Section>
@@ -31,9 +37,37 @@ export default function Blogs() {
           </div>
 
           <div className='w-full flex-1 relative grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
+
+            {
+              posts && posts.length > 0 && (
+                posts.map((data, idx) => (
+                  <div key={idx + 32} className='flex flex-col w-full h-full overflow-hidden border border-gray-300 rounded-xl'>
+                    <Image src={data.main_image} width={500} height={400} className='w-full object-cover h-auto' alt={data.title} />
+
+                    <div className='relative mt-5 px-5 pb-5 flex flex-col justify-between flex-1'>
+                      <div>
+                        <Link href={`/blogs/${data.slug}`} className='lg:text-2xl md:text-xl text-base font-medium text-dark-navy leading-[1.2] '>
+                          {data.title}
+                        </Link>
+                        <Subheading className='text-left mt-2 line-clamp-5'>
+                          {data.short_desc}
+                        </Subheading>
+                      </div>
+
+                      <Link href={`/blogs/${data.slug}`} className='mt-7 w-max ml-auto !font-montserrat font-medium text-blue-500 flex items-center gap-2'>
+                        Read this Blog
+                        <ArrowRight />
+                      </Link>
+                    </div>
+                  </div>
+                ))
+              )
+            }
+
+
             {
               blog.map((data, idx) => (
-                <div key={idx + 32} className='flex flex-col w-full h-full overflow-hidden border border-gray-300 rounded-xl'>
+                <div key={data.slug} className='flex flex-col w-full h-full overflow-hidden border border-gray-300 rounded-xl'>
                   <Image src={data.image} width={500} height={400} className='w-full object-cover h-auto' alt={data.title} />
 
                   <div className='relative mt-5 px-5 pb-5 flex flex-col justify-between flex-1'>
