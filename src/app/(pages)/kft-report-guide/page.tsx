@@ -298,7 +298,7 @@ export default function UnderstandKFTReportPage() {
                                         Understanding your KFT report should not feel stressful. With proper guidance and timely treatment, many kidney problems can be managed successfully. Dr. Satyanarayan Garre provides complete care for patients dealing with kidney-related conditions, including abnormal KFT reports, high creatinine levels, chronic kidney disease, and dialysis care. If your kidney test reports are abnormal or you are experiencing symptoms related to kidney health, consulting an experienced kidney specialist at the right time can help protect your kidneys and improve your overall health.
                                     </p>
                                     <Link
-                                        href='/appointment'
+                                        href='/login'
                                         className='inline-block mt-6 px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold rounded-full transition-colors duration-200'
                                     >
                                         Book a Consultation
