@@ -313,7 +313,7 @@ export default function UnderstandingCreatinineLevelsPage() {
                                         Kidney problems should never be ignored, especially when creatinine levels start increasing. Early care and proper treatment can help protect kidney function and improve overall health. At Dr. Satyanarayan Garre&rsquo;s clinic, patients receive complete care for kidney-related conditions, including high creatinine levels, chronic kidney disease, dialysis support, and kidney health management. If your creatinine levels are high or you are experiencing symptoms related to kidney problems, consulting an experienced kidney specialist can help you understand the cause and start the right treatment at the right time.
                                     </p>
                                     <Link
-                                        href='/appointment'
+                                        href='/login'
                                         className='inline-block mt-6 px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold rounded-full transition-colors duration-200'
                                     >
                                         Book a Consultation
