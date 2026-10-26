@@ -5,7 +5,8 @@ const Blog = dynamic(() => import('@/components/Blog'), {
 })
 import Hero from '@/components/Hero'
 import Marquee from '@/components/Marquee'
-   import Testimonial from '@/components/Testimonial'import TreatmentList from '@/components/TreatmentList'
+   import Testimonial from '@/components/Testimonial'
+     import TreatmentList from '@/components/TreatmentList'
 import { Metadata } from "next";
 import Highlight from "@/components/highlight";
 import FAQ from "@/components/faq";
